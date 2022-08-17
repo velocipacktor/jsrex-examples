@@ -2,7 +2,7 @@
 
 // This example shows the "module" method of loading a profile
 
-import { default as Trex } from '../index.mjs';
+import { default as Trex } from 'jsrex';
 
 import { default as clog } from 'ee-log';
 

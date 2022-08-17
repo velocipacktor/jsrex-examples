@@ -1,6 +1,6 @@
 'use strict';
 
-import { default as Trex } from '../index.mjs';
+import { default as Trex } from 'jsrex';
 
 import { default as clog } from 'ee-log';
 

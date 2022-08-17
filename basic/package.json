@@ -1,0 +1,14 @@
+{
+  "name": "example-profiles-basic",
+  "version": "0.0.1",
+  "description": "basic example profiles for jsrex",
+  "main": "main.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "jsrex": "github:velocipacktor/jsrex"
+  }
+}

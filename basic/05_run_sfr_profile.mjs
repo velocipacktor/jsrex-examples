@@ -2,7 +2,7 @@
 
 // This example shows the "json" method of loading a profile
 
-import { default as Trex } from '../index.mjs';
+import { default as Trex } from 'jsrex';
 
 import { readFileSync } from 'fs';
 
@@ -26,7 +26,7 @@ const trex = new Trex({
 // Setup the profile
 const sfrProfile = {
   profile_id: 'sfr', // Used in Trex and graph/json output file paths
-  profile: readFileSync('examples/profiles/sfr/sfr.json'),
+  profile: readFileSync('./profiles/sfr/sfr.json'),
 };
 
 // Connect to the Trex server
