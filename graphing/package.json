@@ -1,0 +1,18 @@
+{
+  "name": "example-graphing",
+  "version": "0.0.1",
+  "description": "graphing examples for jsrex",
+  "main": "main.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "canvas": "^2.9.3",
+    "chart.js": "^3.9.1",
+    "chartjs-adapter-date-fns": "^2.0.0",
+    "date-fns": "^2.29.1",
+    "jsrex": "github:velocipacktor/jsrex"
+  }
+}
